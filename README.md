@@ -23,10 +23,10 @@ Before you begin, make sure you have the following installed:
     Install dependenciescd ether-js-interaction
     npm install
 
-3. ***Set up Infura***
-    3.1 Create an account on Infura.
-    3.2 Obtain an API key from Infura.
-    3.3 Replace the placeholder API key in the provider instantiation within readBlockchain.js with your Infura API key.
+3. ***Set up Infura*** <br>
+    3.1 Create an account on Infura.<br>
+    3.2 Obtain an API key from Infura.<br>
+    3.3 Replace the placeholder API key in the provider instantiation within readBlockchain.js with your Infura API key.<br>
 
     ```bash
     const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/YOUR_INFURA_API_KEY");
