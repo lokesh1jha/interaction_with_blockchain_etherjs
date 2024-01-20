@@ -1,4 +1,4 @@
-const { ethers, formatUnits } = require("ethers");
+const { ethers } = require("ethers");
 
 //v5
 const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/b8ee69377a2e4a1aa06d5f5ae0141fd3");
